@@ -14,7 +14,7 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_
 
 # Create a GradientBoostingRegressor model
 gb_regressor = GradientBoostingRegressor(
-    n_estimators=100,     # Number of boosting stages (trees)
+    n_estimators=1000,     # Number of boosting stages (trees)
     learning_rate=0.1,    # Step size shrinkage to prevent overfitting
     max_depth=3,          # Maximum depth of individual trees
     random_state=42       # Random seed for reproducibility
