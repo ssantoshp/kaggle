@@ -1,5 +1,6 @@
 # Import necessary libraries
 import numpy as np
+import optuna
 from sklearn.datasets import make_regression
 from sklearn.ensemble import GradientBoostingRegressor
 from sklearn.model_selection import train_test_split
